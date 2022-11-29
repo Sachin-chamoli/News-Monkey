@@ -30,7 +30,7 @@ const News = (props) => {
   }
   useEffect(()=>{
     updateNews();
-    // document.title = `${capital(props.category)} - NewsMonkey`;
+    document.title = `${capital(props.category)} - NewsMonkey`;
   }, [])
   
 
